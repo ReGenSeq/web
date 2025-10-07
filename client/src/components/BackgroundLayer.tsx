@@ -61,7 +61,7 @@ export function BackgroundLayer({ sectionIndex }: BackgroundLayerProps) {
       >
         {selectedImage ? (
           <div
-            className="absolute inset-0 opacity-15"
+            className="absolute inset-0 opacity-30"
             style={{
               backgroundImage: `url(${selectedImage})`,
               backgroundSize: "cover",
