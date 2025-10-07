@@ -68,10 +68,10 @@ export function ResourcesSection() {
     <section 
       ref={sectionRef}
       id="resources" 
-      className="h-screen flex items-center snap-start snap-always overflow-hidden"
+      className="h-screen flex items-start md:items-center snap-start snap-always overflow-hidden"
     >
       <div 
-        className="max-w-7xl mx-auto px-4 md:px-8 w-full pt-20 md:pt-0"
+        className="max-w-7xl mx-auto px-4 md:px-8 w-full pt-24 md:pt-0"
         style={{
           transform: `translateY(${-parallaxOffset}px)`,
         }}
