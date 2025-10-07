@@ -57,7 +57,7 @@ export function FeaturesSection() {
     <section 
       ref={sectionRef}
       id="features" 
-      className="h-screen flex items-center bg-white snap-start snap-always overflow-hidden"
+      className="h-screen flex items-center bg-background snap-start snap-always overflow-hidden"
     >
       <div 
         className="max-w-7xl mx-auto px-4 md:px-8 w-full"
