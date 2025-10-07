@@ -85,19 +85,19 @@ export function ResourcesSection() {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {resources.map((resource, index) => (
             <Card 
               key={index} 
-              className={`p-8 hover-elevate ${resource.highlight ? 'border-primary/50' : ''}`}
+              className={`p-6 hover-elevate ${resource.highlight ? 'border-primary/50' : ''}`}
               data-testid={`card-resource-${index}`}
             >
               <div className="flex flex-col h-full">
                 <div className={`rounded-lg ${resource.highlight ? 'bg-primary/10' : 'bg-muted/50'} w-12 h-12 flex items-center justify-center mb-4`}>
                   <resource.icon className={`h-6 w-6 ${resource.highlight ? 'text-primary' : 'text-foreground'}`} />
                 </div>
-                <h3 className="text-xl font-semibold mb-2">{resource.title}</h3>
-                <p className="text-muted-foreground mb-6 flex-grow">{resource.description}</p>
+                <h3 className="text-lg font-semibold mb-2">{resource.title}</h3>
+                <p className="text-sm text-muted-foreground mb-6 flex-grow">{resource.description}</p>
                 <Button
                   variant={resource.highlight ? "default" : "outline"}
                   className="w-full gap-2"
