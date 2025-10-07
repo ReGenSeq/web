@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Thermometer, Droplets, Camera, FlaskConical, FileCode, Clock } from "lucide-react";
-import { useEffect, useState, useRef } from "react";
+import { ScrollRevealSection } from "./ScrollRevealSection";
 
 const features = [
   {
@@ -36,35 +36,12 @@ const features = [
 ];
 
 export function FeaturesSection() {
-  const sectionRef = useRef<HTMLElement>(null);
-  const [offset, setOffset] = useState(0);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (sectionRef.current) {
-        const rect = sectionRef.current.getBoundingClientRect();
-        setOffset(rect.top);
-      }
-    };
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    handleScroll();
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  const parallaxOffset = offset < 0 ? Math.abs(offset) * 0.2 : 0;
-
   return (
-    <section 
-      ref={sectionRef}
+    <ScrollRevealSection 
       id="features" 
       className="h-screen flex items-center bg-card snap-start snap-always overflow-hidden"
     >
-      <div 
-        className="max-w-7xl mx-auto px-4 md:px-8 w-full"
-        style={{
-          transform: `translateY(${-parallaxOffset}px)`,
-        }}
-      >
+      <div className="max-w-7xl mx-auto px-4 md:px-8 w-full">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             Technical Capabilities
@@ -89,6 +66,6 @@ export function FeaturesSection() {
           ))}
         </div>
       </div>
-    </section>
+    </ScrollRevealSection>
   );
 }
