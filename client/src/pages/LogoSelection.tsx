@@ -4,47 +4,47 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeft, Check } from "lucide-react";
 import { Link } from "wouter";
-import logo1 from "@assets/generated_images/PySeq_DNA_Python_minimalist_logo_bd75b5dd.png";
-import logo2 from "@assets/generated_images/PySeq_geometric_flow_cell_logo_a1646724.png";
-import logo3 from "@assets/generated_images/PySeq_microscope_code_fusion_logo_e09e89b0.png";
-import logo4 from "@assets/generated_images/PySeq_community_network_logo_ff314d53.png";
-import logo5 from "@assets/generated_images/PySeq_letter_P_data_logo_e59b42f1.png";
+import logo1 from "@assets/generated_images/Minimal_P_with_DNA_line_0f50d51e.png";
+import logo2 from "@assets/generated_images/Minimal_circle_sequencing_lanes_32e47afa.png";
+import logo3 from "@assets/generated_images/Clean_PySeq_wordmark_typography_87be8c39.png";
+import logo4 from "@assets/generated_images/Three_dots_connected_P_shape_1f632a34.png";
+import logo5 from "@assets/generated_images/Overlapping_rectangles_P_minimal_b92e811d.png";
 
 const logos = [
   {
     id: 1,
-    name: "DNA Python Fusion",
-    description: "Minimalist design combining Python snake symbol with DNA double helix",
+    name: "Letter P with DNA",
+    description: "Simple monochrome letter P with subtle DNA helix line detail",
     image: logo1,
-    style: "Clean & Scientific"
+    style: "Minimal & Clean"
   },
   {
     id: 2,
-    name: "Flow Cell Geometric",
-    description: "Modern geometric pattern featuring abstract flow cell with hexagonal shapes",
+    name: "Sequencing Lanes",
+    description: "Abstract geometric circle with parallel lines representing sequencing",
     image: logo2,
-    style: "Bold & Technical"
+    style: "Geometric & Simple"
   },
   {
     id: 3,
-    name: "Microscope Code",
-    description: "Tech-science fusion with sequencer equipment merged with code symbols",
+    name: "PySeq Wordmark",
+    description: "Clean typography wordmark with modern sans-serif font",
     image: logo3,
-    style: "Professional & Modern"
+    style: "Typography Focused"
   },
   {
     id: 4,
-    name: "Community Network",
-    description: "Friendly open-source feel with interconnected nodes and DNA elements",
+    name: "Connected Dots",
+    description: "Three dots connected by lines forming an abstract P shape",
     image: logo4,
-    style: "Approachable & Warm"
+    style: "Minimal & Modern"
   },
   {
     id: 5,
-    name: "Data Visualization",
-    description: "Bold letter P formed by sequencing lanes and data elements",
+    name: "Overlapping Shapes",
+    description: "Letter P made from two overlapping rounded rectangles",
     image: logo5,
-    style: "Dynamic & Contemporary"
+    style: "Geometric Minimal"
   }
 ];
 
