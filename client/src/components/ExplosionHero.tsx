@@ -4,7 +4,7 @@ import { Github, FileText, ArrowRight } from "lucide-react";
 
 export function ExplosionHero() {
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden snap-start snap-always bg-background">
+    <section className="relative h-screen flex items-center justify-center overflow-hidden snap-start snap-always">
       <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 py-24 md:py-32 text-center">
         <Badge 
           className="mb-6 bg-accent/20 text-accent-foreground border-accent/30"

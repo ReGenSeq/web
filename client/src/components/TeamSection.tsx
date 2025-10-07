@@ -58,7 +58,7 @@ export function TeamSection() {
     <section 
       ref={sectionRef}
       id="team" 
-      className="h-screen flex items-center bg-background snap-start snap-always overflow-hidden"
+      className="h-screen flex items-center snap-start snap-always overflow-hidden"
     >
       <div 
         className="max-w-7xl mx-auto px-4 md:px-8 w-full"
