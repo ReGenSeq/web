@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 const sections = [
   { id: "hero", label: "Home" },
+  { id: "exploded", label: "Technology" },
   { id: "about", label: "About" },
   { id: "features", label: "Features" },
   { id: "grant", label: "NSF Grant" },
@@ -16,9 +17,11 @@ export function ScrollIndicator() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sectionElements = sections.map(section => {
+      const sectionElements = sections.map((section, index) => {
         if (section.id === "hero") {
           return document.querySelector('section:first-of-type');
+        } else if (section.id === "exploded") {
+          return document.querySelectorAll('section')[1]; // Second section
         } else if (section.id === "footer") {
           return document.querySelector('footer');
         } else {
@@ -77,6 +80,8 @@ export function ScrollIndicator() {
     
     if (section.id === "hero") {
       element = document.querySelector('section:first-of-type');
+    } else if (section.id === "exploded") {
+      element = document.querySelectorAll('section')[1]; // Second section
     } else if (section.id === "footer") {
       element = document.querySelector('footer');
     } else {
