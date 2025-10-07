@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import heroImage from "@assets/generated_images/DNA_sequencing_microscopy_hero_image_61613447.png";
+import { HiSeq2500Outline } from "./HiSeq2500Outline";
 
 interface BackgroundLayerProps {
   sectionIndex: number;
@@ -24,16 +24,13 @@ export function BackgroundLayer({ sectionIndex }: BackgroundLayerProps) {
       }}
     >
       <div
-        className="absolute inset-0 transition-transform duration-700 ease-out"
+        className="absolute inset-0 flex items-center justify-center transition-transform duration-700 ease-out text-foreground/10"
         style={{
-          backgroundImage: `url(${heroImage})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          transform: `translateY(${translateY}px) scale(1.2)`,
+          transform: `translateY(${translateY}px) scale(2.5)`,
           willChange: "transform",
         }}
       >
-        <div className="absolute inset-0 bg-background/80 dark:bg-background/85" />
+        <HiSeq2500Outline />
       </div>
     </div>
   );
