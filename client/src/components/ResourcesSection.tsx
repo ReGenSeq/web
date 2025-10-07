@@ -85,11 +85,11 @@ export function ResourcesSection() {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto justify-items-center">
           {resources.map((resource, index) => (
             <Card 
               key={index} 
-              className={`p-6 hover-elevate ${resource.highlight ? 'border-primary/50' : ''}`}
+              className={`p-6 hover-elevate w-full ${resource.highlight ? 'border-primary/50' : ''}`}
               data-testid={`card-resource-${index}`}
             >
               <div className="flex flex-col h-full">
