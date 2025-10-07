@@ -58,11 +58,15 @@ export function ScrollIndicator() {
       timeoutId = window.setTimeout(handleScroll, 150);
     };
 
-    window.addEventListener("scroll", scrollHandler, { passive: true });
+    // Get the scroll container (the main div with overflow-y-scroll)
+    const scrollContainer = document.querySelector('.h-screen.overflow-y-scroll');
+    const target = scrollContainer || window;
+
+    target.addEventListener("scroll", scrollHandler, { passive: true });
     handleScroll();
     
     return () => {
-      window.removeEventListener("scroll", scrollHandler);
+      target.removeEventListener("scroll", scrollHandler);
       clearTimeout(timeoutId);
     };
   }, []);
