@@ -36,6 +36,14 @@ const resources = [
     buttonText: "Read Preprint",
     highlight: false,
   },
+  {
+    icon: Book,
+    title: "RegenSeq Protocols",
+    description: "Step-by-step protocols and methods for PySeq workflows",
+    link: "https://www.protocols.io/workspaces/regenseq",
+    buttonText: "View Protocols",
+    highlight: false,
+  },
 ];
 
 export function ResourcesSection() {
