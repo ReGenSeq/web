@@ -40,7 +40,8 @@ export function BackgroundLayer({ sectionIndex }: BackgroundLayerProps) {
     }
   }, []);
 
-  const translateY = sectionIndex * -150;
+  const totalSections = 8;
+  const translateYPercent = (sectionIndex / (totalSections - 1)) * -50;
   const selectedImage = selectedBgId ? backgroundImages[selectedBgId] : null;
 
   return (
@@ -55,7 +56,7 @@ export function BackgroundLayer({ sectionIndex }: BackgroundLayerProps) {
       <div
         className="absolute inset-0 transition-transform duration-700 ease-out"
         style={{
-          transform: `translateY(${translateY}px) scale(1.5)`,
+          transform: `translateY(${translateYPercent}vh) scale(1.5)`,
           willChange: "transform",
         }}
       >
