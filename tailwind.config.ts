@@ -86,7 +86,6 @@ export default {
         sans: ["var(--font-sans)"],
         serif: ["var(--font-serif)"],
         mono: ["var(--font-mono)"],
-        heading: ["'Apex Mk2'", "sans-serif"],
       },
       keyframes: {
         "accordion-down": {
