@@ -51,8 +51,11 @@ Preferred communication style: Simple, everyday language.
   - Section parallax transforms removed (BackgroundLayer parallax still active)
   
 - **Shared Hook**: All sections use `useIsMobile()` from `/client/src/hooks/use-mobile.tsx` for responsive detection (768px breakpoint, single matchMedia listener)
-- **Typography**: All headings use responsive sizing pattern (e.g., `text-2xl sm:text-3xl md:text-4xl`) with horizontal padding (`px-2`) to prevent edge clipping
-- **Critical Fix (Oct 2025)**: Removed section-level parallax transforms that were causing "Leadership Team" and "Broader Impacts" titles to be hidden/clipped on various viewports
+- **Typography**: All sections use centralized CSS utility classes (`.text-heading-main`, `.text-heading-sub`, etc.) with horizontal padding (`px-2`) to prevent edge clipping
+- **Layout Pattern**: Sections use `items-start` with `md:pt-28 lg:pt-32 md:pb-8` padding to prevent navbar overlap (accounts for h-16 navbar + 3rem minimum spacing)
+- **Critical Fixes (Oct 2025)**: 
+  - Removed section-level parallax transforms that were causing titles to be hidden/clipped
+  - Fixed navbar overlap by changing from vertical centering to top alignment with proper padding
 
 ### Backend Architecture
 
@@ -103,10 +106,16 @@ Currently minimal authentication infrastructure:
 - CSS custom properties for theme values
 - Automatic border color computation for elevated surfaces
 
-**Typography**:
+**Typography** (Centralized System - October 2025):
 - Inter font family for headings and body text
 - JetBrains Mono/Fira Code for technical content
-- Responsive text scales using Tailwind utilities
+- **CSS Custom Properties for Responsive Sizing:**
+  - `--text-heading-main: clamp(1.5rem, 4vw, 2.5rem)` - Main headings (24-40px)
+  - `--text-heading-sub: clamp(1.25rem, 3vw, 1.875rem)` - Subheadings (20-30px)
+  - `--text-subtitle-lg: clamp(0.875rem, 2vw, 1.25rem)` - Large subtitles (14-20px)
+  - `--text-subtitle: clamp(0.875rem, 2vw, 1.125rem)` - Standard subtitles (14-18px)
+- **CSS Utility Classes:** `.text-heading-main`, `.text-heading-sub`, `.text-subtitle-lg`, `.text-subtitle`
+- All sections use utility classes for consistent typography across all viewports
 
 **Component Styling**:
 - Custom elevation effects (hover-elevate, active-elevate-2 utilities)
