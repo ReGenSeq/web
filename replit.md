@@ -45,17 +45,19 @@ Preferred communication style: Simple, everyday language.
   - Section parallax transforms removed to prevent content clipping
   
 - **Desktop (>= 768px)**: 
-  - Container uses `md:h-screen md:overflow-y-scroll` for controlled scroll area
-  - Sections use `md:h-screen md:snap-start md:snap-always` for smooth snap scrolling
-  - `md:overflow-hidden` prevents individual section scrolling
+  - Container uses `md:h-screen md:overflow-y-scroll md:snap-y md:snap-proximity` for smooth scroll area with proximity-based snapping
+  - Sections use `min-h-screen` (removed `md:h-screen` constraint) allowing content expansion
+  - `overflow-y-auto` enables vertical scrolling within sections (removed `md:overflow-hidden`)
+  - Sections use `md:snap-start md:snap-always` for snap points
   - Section parallax transforms removed (BackgroundLayer parallax still active)
   
 - **Shared Hook**: All sections use `useIsMobile()` from `/client/src/hooks/use-mobile.tsx` for responsive detection (768px breakpoint, single matchMedia listener)
 - **Typography**: All sections use centralized CSS utility classes (`.text-heading-main`, `.text-heading-sub`, etc.) with horizontal padding (`px-2`) to prevent edge clipping
-- **Layout Pattern**: Sections use `items-start` with `md:pt-28 lg:pt-32 md:pb-8` padding to prevent navbar overlap (accounts for h-16 navbar + 3rem minimum spacing)
+- **Layout Pattern**: Sections use `items-start` with `md:pt-28 lg:pt-32 md:pb-[15vh]` padding (navbar spacing + generous 15vh bottom clearance)
 - **Critical Fixes (Oct 2025)**: 
   - Removed section-level parallax transforms that were causing titles to be hidden/clipped
   - Fixed navbar overlap by changing from vertical centering to top alignment with proper padding
+  - Fixed scroll clipping: Changed snap-mandatory to snap-proximity, removed overflow-hidden, added 15vh bottom padding to ensure all cards/buttons fully visible
 
 ### Backend Architecture
 
