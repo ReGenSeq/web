@@ -29,7 +29,7 @@ export function CommunitySection() {
   return (
     <section 
       id="community" 
-      className="min-h-screen flex items-start md:snap-start md:snap-always overflow-y-auto"
+      className="min-h-screen flex items-start md:snap-start overflow-y-auto"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 w-full py-20 md:pt-28 lg:pt-32 md:pb-[15vh]">
         <div className="text-center mb-6 sm:mb-8 md:mb-10">

@@ -3,7 +3,7 @@ import { Github, ExternalLink } from "lucide-react";
 export function Footer() {
   return (
     <footer 
-      className="border-t border-border md:snap-start md:snap-always min-h-screen md:h-screen flex items-center overflow-y-auto md:overflow-hidden"
+      className="border-t border-border md:snap-start min-h-screen md:h-screen flex items-center overflow-y-auto md:overflow-hidden"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-12 sm:py-16 md:py-12 w-full">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mb-6 sm:mb-8">
