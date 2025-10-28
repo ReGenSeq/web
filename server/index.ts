@@ -1,8 +1,22 @@
 import express, { type Request, Response, NextFunction } from "express";
+import compression from "compression";
 import { registerRoutes } from "./routes";
 import { setupVite, serveStatic, log } from "./vite";
 
 const app = express();
+
+// Enable gzip compression for all responses
+app.use(compression());
+
+// Redirect www to non-www subdomain
+app.use((req, res, next) => {
+  const host = req.headers.host || '';
+  if (host.startsWith('www.')) {
+    return res.redirect(301, `https://${host.substring(4)}${req.url}`);
+  }
+  next();
+});
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
