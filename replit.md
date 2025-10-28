@@ -46,10 +46,10 @@ Preferred communication style: Simple, everyday language.
   - Section parallax transforms removed to prevent content clipping
   
 - **Desktop (>= 768px)**: 
-  - Container uses `md:h-screen md:overflow-y-scroll md:snap-y md:snap-proximity` for smooth scroll area with proximity-based snapping
+  - Container uses `md:h-screen md:overflow-y-scroll` for smooth scroll area
+  - No snap scrolling - completely free-flowing scroll behavior
   - Sections use `min-h-screen` (removed `md:h-screen` constraint) allowing content expansion
   - `overflow-y-auto` enables vertical scrolling within sections (removed `md:overflow-hidden`)
-  - Sections use `md:snap-start` for snap points (removed `snap-always` for smoother free-flowing scroll)
   - Section parallax transforms removed (BackgroundLayer parallax still active)
   
 - **Shared Hook**: All sections use `useIsMobile()` from `/client/src/hooks/use-mobile.tsx` for responsive detection (768px breakpoint, single matchMedia listener)

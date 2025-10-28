@@ -46,7 +46,7 @@ export default function Home() {
   return (
     <div 
       ref={containerRef} 
-      className="scroll-smooth md:snap-y md:snap-proximity md:h-screen md:overflow-y-scroll"
+      className="scroll-smooth md:h-screen md:overflow-y-scroll"
     >
       <BackgroundLayer sectionIndex={activeSectionIndex} />
       <Navigation />
