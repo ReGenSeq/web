@@ -1,0 +1,382 @@
+Skip to content
+Seobility logo
+Features & Use Cases
+Pricing
+Resources
+EN
+Log in
+Try it free
+Home  SEO Checker (results)
+
+SEO Checker
+Ranking Checker
+Backlink Checker
+Keyword Research
+Snippet Generator
+TF*IDF Tool
+Redirect Checker
+SEO Compare
+Keyword Checker
+
+SEO Checker
+
+ShareShare Icon
+
+PDFDownload Icon
+Analyze any web page for technical errors and on-page SEO problems, and get tips on how to optimize it.
+
+Upgrade now to increase your daily credit limit
+(50 per day in the Premium plan)
+Mehr erfahren
+
+
+
+
+Check page
+You have 0of 3 checks left today
+
+No checks left!
+Page URL
+https://regenseq.replit.app/
+Crawl mode
+HTTP authentication: Username
+Username
+HTTP authentication: Password
+Password
+
+Checks
+
+Elements
+
+Miscellaneous
+On-page score
+Issues:
+3
+Critical
+49%
+On-page score
+Meta data
+56 %
+Page quality
+90 %
+Page structure
+68 %
+Links
+25 %
+Server
+0 %
+External factors
+3 %
+HTML page
+Himmelimherzen
+Meta title
+RegenSeq Open Source Community | Repurposing DNA Sequencers for Spatial Biology
+
+Meta description
+RegenSeq is an NSF-funded open source ecosystem that repurposes decommissioned Illumina HiSeq 2500 sequencers into flexible automation platforms for spatial biology research. Democratizing advanced biological assays through accessible, community-driven software.
+
+URL
+https://regenseq.replit.app/
+Status code
+200
+Page status
+Follow
+Index
+Language
+EN
+Response time
+0.29 sec
+File size
+54.30 kB
+Word count
+625
+To-Do List
+Tasks sorted by priority
+
+To-Do
+
+Importance
+
+Action
+This page has only very few internal links. If it's a welcome page, consider removing it.
+Error
+
+More details
+Use 301 redirects to drive traffic to URLS with the same domain and sub domain (www and non-www subdomain).
+Error
+
+More details
+Enable the compressed HTML content transfer on your server using gzip or Brotli.
+Error
+
+More details
+Review and improve the page title.
+Warning
+
+More details
+Improve the text of the meta description.
+Warning
+
+More details
+Remove duplicate heading texts.
+Warning
+
+More details
+Add a favicon markup to the HTML code.
+Tip
+
+Go to tip
+Checks
+Meta data
+56%
+Title
+
+Warning
+2/3
+Very important
+RegenSeq Open Source Community | Repurposing DNA Sequencers for Spatial Biology
+The page title should be shorter than 580 pixels. It is 786 pixels long. Optimize title
+There are no duplicate words in the title.
+Meta description
+
+Warning
+1/2
+Very important
+RegenSeq is an NSF-funded open source ecosystem that repurposes decommissioned Illumina HiSeq 2500 sequencers into flexible automation platforms for spatial biology research. Democratizing advanced biological assays through accessible, community-driven software.
+The meta description is too long: 1688 pixels from max. 1000 pixels.
+Crawlability
+
+1/1
+Very important
+There are no problems in accessing the page.
+Canonical link
+
+2/2
+Important
+https://regenseq.replit.app/
+There is a valid canonical link specified.
+Language
+
+4/4
+Low importance
+Language detected in text: en
+Language defined in HTML: en
+Server location: Deutschland
+The following language is defined in the HTML code: en
+Alternate/hreflang links
+
+1/1
+Low importance
+There are no alternate links specified on this page.
+Other meta tags
+
+2/2
+Low importance
+There is no rel=next meta tag on this page.
+There is no rel=prev meta tag on this page.
+Domain
+
+Warning
+1/2
+Low importance
+This page is hosted on a subdomain. Use a top level domain for better SEO results.
+The domain name does not contain any non-Latin characters.
+Page URL
+
+3/3
+Low importance
+No parameters were found in the URL.
+No session ID was found in the URL.
+The URL does not have too many subdirectories.
+Charset encoding
+
+1/1
+Low importance
+The charset encoding (UTF-8) is set correctly.
+Doctype
+
+2/2
+Nice to have
+The doctype HTML 5 is set correctly.
+The doctype is placed first in the HTML code.
+Favicon
+
+Warning
+0/1
+Nice to have
+No favicon is linked in the HTML code.
+Page quality
+90%
+Content
+
+10/10
+Very important
+The word count of 625 words is fine.
+19% of the text are stop words.
+Keywords used in the page title are also used in the page content. That's good!
+Some words from the page title are not used within H1 headings
+The page contains a list, which indicates a good text structure.
+19 paragraphs (text blocks) were found on this page.
+The text content is perfect.
+No placeholder texts or images were found.
+There are no duplicates on the site
+The average sentence length of 22 words is good.
+Frames
+
+1/1
+Very important
+This page does not use a frameset.
+Mobile optimization
+
+Warning
+2/3
+Low importance
+No Apple touch icon is specified
+A viewport (width=device-width, initial-scale=1.0, maximum-scale=1) is provided.
+This page only loads 1 JavaScript files. That's good!
+Strong and bold tags
+
+1/1
+Low importance
+The usage of strong and bold tags is perfect. We recommend the use of up to 13 tags for this page.
+Image SEO
+
+1/1
+Low importance
+ALT text (alternative text) is correctly used on all found images.
+Social media
+
+Warning
+0/1
+Nice to have
+There are few social sharing options on the page. Sharing plugins can increase the page's reach on social media.
+Additional markup
+
+1/1
+Nice to have
+No additional page markup was found.
+HTTPS
+
+2/2
+Low importance
+This page uses HTTPS to protect the privacy and integrity of information exchanged.
+All included files are also transferred via HTTPS.
+Others
+68%
+H1 heading
+
+2/2
+Very important
+RegenSeq Open Source Community
+The H1 heading is perfect
+Headings
+
+Warning
+0/2
+Important
+There are duplicate heading texts on the page.
+There are 38 headings on the page. The number of headings should be more in proportion to the amount of text.
+Link structure
+25%
+Internal links
+
+Errors
+0/1
+Important
+This page seems to be an entry page, because only very few links were found
+External links
+
+1/1
+Nice to have
+There are 4 external links on this page.
+Server configuration
+0%
+HTTP redirects
+
+Errors
+1/2
+Very important
+The checked page does not redirect to another URL.
+This website uses URLs with www and non-www subdomain. This may cause duplicate content and bad links to your website. Redirect Checker
+HTTP header
+
+Errors
+0/2
+Important
+The HTML page should be transferred using GZip compression.
+The X-powered header is sent within the response header.
+Performance
+
+4/4
+Low importance
+The HTML page response time of 0,29 seconds is below the target of 0.40 seconds.
+This page only loads 2 CSS files. That's ok.
+This page only loads 1 JavaScript files. That's good!
+The file size of the HTML document is fine. (54 kB)
+External factors
+3%
+Backlinks
+
+Warning
+0/4
+Very important
+This page has only a few links from other websites
+This page only has backlinks from 1 referring domains.
+This page only has 1 backlinks.
+This page only has backlinks from 1 different IP addresses
+Start your 14-day trial now!
+Seobility Premium
+Analyze more than just one URL and unlock all features of our SEO software suite:
+
+ Comprehensive SEO audit for your entire website
+ Ranking Monitoring
+ Backlink Monitoring & Analysis
+ Competitor Analysis
+ And more!
+Free 14-day trial
+
+FREE
+Price per month$50
+Can be canceled at any time! Automatically renews to our monthly Premium plan for $50/month.
+
+Start free trial
+Seobility Website Audit
+G2 High Performer badge
+Seobility Logo
+Contact us
+Seobility GmbH, Willy-Brandt-Platz 16, 90402 Nuremberg, Germany
+Features
+Website Audit
+Ranking Monitoring
+Backlink Monitoring
+Keyword Research & Content Tools
+Uptime Monitoring
+Use Cases
+Seobility for Businesses
+Seobility for Agencies & Freelancers
+Seobility for Local Businesses
+Free SEO Tools
+SEO Checker
+Ranking Checker
+Backlink Checker
+Keyword Research Tool
+TF*IDF Tool
+Redirect Checker
+SERP Snippet Generator
+Keyword Checker
+SEO Compare
+Seobility
+Plans & Pricing
+Seobility Team
+Contact
+Affiliate Program
+Resources
+Blog
+Wiki
+FAQ
+Seobility Beginner’s Guide
+Legal
+Terms & Conditions
+Privacy
+Imprint
+© 2025 - Seobility.net
