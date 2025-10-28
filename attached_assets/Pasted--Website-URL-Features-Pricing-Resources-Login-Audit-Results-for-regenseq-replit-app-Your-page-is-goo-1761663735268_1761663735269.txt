@@ -1,0 +1,388 @@
+
+Website URL
+Features
+Pricing
+Resources
+Login
+Audit Results for regenseq.replit.app
+Your page is good
+
+
+On-Page SEO
+
+Links
+
+Usability
+
+Performance
+
+Social
+
+Report Generated: 28 October 2:40PM UTC Refresh Results Now
+
+Improve Your Site With Our DIY SEO Tool
+Review unlimited pages. Crawl your whole site for problems and get clear, easy to follow recommendations with guides for your CMS. Monitor your keyword rankings and get regular updates on your site's performance.
+
+Helping Business Owners promote their websites the affordable way.
+
+
+Recommendations
+Reduce length of Title Tag
+On-Page SEO
+Medium Priority
+Reduce length of Meta Description
+On-Page SEO
+Medium Priority
+Create and link your Facebook Page
+Social
+Low Priority
+Create and link your X Profile
+Social
+Low Priority
+Add a DMARC Mail Record
+Other
+Low Priority
+Add an SPF Mail Record
+Other
+Low Priority
+Implement an Analytics Tracking Tool
+On-Page SEO
+Low Priority
+Create and link an associated Instagram Profile
+Social
+Low Priority
+Create and link an associated YouTube Channel
+Social
+Low Priority
+Create and link an associated LinkedIn Profile
+Social
+Low Priority
+Add Business Address and Phone Number
+Other
+Low Priority
+Add Local Business Schema
+Other
+Low Priority
+Install a Facebook Pixel
+Social
+Low Priority
+On-Page SEO Results
+Your On-Page SEO is good
+Your page is mostly optimized for On-Page SEO performance. On-Page SEO is important to ensure Search Engines can understand your content appropriately and help it rank for relevant keywords. You can continue to improve your page by ensuring HTML Tag Content is completed correctly and text content is well aligned with chosen keywords.
+Title Tag
+You have a Title Tag, but ideally it should be shortened to between 50 and 60 characters (including spaces).
+RegenSeq | Open Source DNA Sequencer Repurposing for Spatial Biology
+Length : 68
+Title Tags are very important for search engines to correctly understand and categorize your content.
+Meta Description Tag
+Your page has a Meta Description Tag however, your Meta Description should ideally be between 120 and 160 characters (including spaces).
+NSF-funded open source toolkit to repurpose Illumina HiSeq 2500 sequencers into affordable automation platforms for spatial biology, transcriptomics and proteomics research.
+Length : 173
+A Meta Description is important for search engines to understand the content of your page, and is often shown as the description text blurb in search results.
+SERP Snippet Preview
+This illustrates how your page may appear in Search Results. Note, this is intended as a guide and Search Engines are more frequently generating this content dynamically.
+
+RegenSeq Open Source Community
+https://regenseq.replit.app
+RegenSeq
+NSF-funded open source toolkit to repurpose Illumina HiSeq 2500 sequencers into affordable automation platforms for spatial biology, transcriptomics ...
+Hreflang Usage
+Your page is not making use of Hreflang attributes.
+Language
+Your page is using the Lang Attribute.
+Declared: English
+H1 Header Tag Usage
+Your page has a H1 Tag.
+H2-H6 Header Tag Usage
+Your page is making use multiple levels of Header Tags.
+Header Tag	Frequency	
+H2	6	
+H3	27	
+H4	4	
+H5	0	
+H6	0	
+Keyword Consistency
+Your page's main keywords are distributed well across the important HTML Tags.
+Individual Keywords
+Keyword	Title	Meta Description Tag	Headings Tags	Page Frequency	
+regenseq	
+15	
+open	
+11	
+research	
+11	
+source	
+10	
+control	
+9	
+community	
+7	
+repurposing	
+6	
+sequencers	
+6	
+Phrases
+Phrase	Title	Meta Description Tag	Headings Tags	Page Frequency	
+open source	
+10	
+dna sequencers	
+4	
+automation platforms	
+4	
+hiseq 2500	
+4	
+new york	
+4	
+york genome	
+4	
+genome center	
+4	
+new york genome	
+4	
+Amount of Content
+Your page has a good level of textual content, which will assist in it's ranking potential.
+Word Count: 656
+Image Alt Attributes
+You do not have any images missing Alt Attributes on your page.
+Canonical Tag
+Your page is using the Canonical Tag.
+https://regenseq.replit.app/
+Noindex Tag Test
+Your page is not using the Noindex Tag which prevents indexing.
+Noindex Header Test
+Your page is not using the Noindex Header which prevents indexing.
+SSL Enabled
+Your website has SSL enabled.
+HTTPS Redirect
+Your page successfully redirects to a HTTPS (SSL secure) version.
+Robots.txt
+Your website appears to have a robots.txt file.
+http://regenseq.replit.app/robots.txt
+Blocked by Robots.txt
+Your page does not appear to be blocked by robots.txt.
+XML Sitemaps
+Your website appears to have an XML Sitemap.
+https://regenseq.replit.app/sitemap.xml
+Analytics
+We could not detect an analytics tool installed on your page.
+Website analytics tools like Google Analytics assist you in measuring, analyzing and ultimately improving traffic to your page.
+Schema.org Structured Data
+You are using JSON-LD Schema on your page.
+Rankings
+Top Keyword Rankings
+You can see the live Keyword Rankings for your page within the report by signing up to one of our premium plans.
+Links
+Backlink Summary
+You have a very strong level of backlink activity to this page.
+Domain
+Strength
+
+Page
+Strength
+
+0
+Total Backlinks
+0
+Referring Domains
+0
+Nofollow Backlinks
+0
+Dofollow Backlinks
+0
+Edu Backlinks
+0
+Gov Backlinks
+0
+IPs
+0
+Subnets
+Top Backlinks
+We haven't found any backlinks to report for this site.
+Top Pages by Backlinks
+We haven't found any Top Pages data for this site.
+Top Anchors by Backlinks
+We haven't found any Anchor Text data for this site.
+Top Referring Domain Geographies
+We haven't found any Geographic Data for this site.
+On-Page Link Structure
+We found 4 total links. 100% of your links are external links and are sending authority to other sites. 0% of your links are nofollow links, meaning authority is not being passed to those destination pages.
+On-Page Links
+4
+Total
+Internal Links
+0
+External Links: Follow
+4
+External Links: Nofollow
+0
+Friendly Links
+Your link URLs appear friendly (easily human or search engine readable).
+
+Create White Label PDFs
+Upload your own logo and company's contact details. Generate unlimited PDFs under our White Label plans. See an example PDF Report
+
+Embed the Audit Tool into your website. Get notified of leads straight from your website.
+
+
+Usability
+Your usability is very good!
+Your page is highly usable across devices. Usability is important to maximize your available audience and minimize user bounce rates (which can indirectly affect your search engine rankings).
+Device Rendering
+This check visually demonstrates how your page renders on different devices. It is important that your page is optimized for mobile and tablet experiences as today the majority of web traffic comes from these sources.
+Flash Used?
+No Flash content has been identified on your page.
+iFrames Used?
+There are no iFrames detected on your page.
+Favicon
+Your page has specified a Favicon.
+Email Privacy
+No email addresses have been found in plain text on your page.
+Performance Results
+Your performance is very good!
+Congratulations, your page has performed very well in our testing meaning it should be reasonably fast and responsive for users. Performance is important to ensure a good user experience, and reduced bounce rates (which can also indirectly affect your search engine rankings). Continue to monitor your performance over time to ensure there are no periodic fluctuations.
+Website Load Speed
+Your page loads in a reasonable amount of time.
+Server Response
+0.0s
+All Page Content Loaded
+0.2s
+All Page Scripts Complete
+0.4s
+Website Download Size
+Your page's file size is reasonably low which is good for Page Load Speed and user experience.
+Download Page Size
+1.35MB
+Download Page Size Breakdown
+1.35MB
+Total
+HTML
+0MB
+CSS
+0.02MB
+JS
+0.09MB
+Images
+1.17MB
+Other
+0.07MB
+Compression Usage (Gzip, Deflate, Brotli)
+Your website appears to be using a reasonable level of compression.
+Compression Rate
+23%
+Compression Rates
+HTML
+60% compressed of 0.00MB
+CSS
+91% compressed of 0.22MB
+JS
+68% compressed of 0.29MB
+Images
+0% compressed of 1.17MB
+Other
+0% compressed of 0.07MB
+Total
+23% compressed of 1.76MB
+Resources Breakdown
+This check displays the total number of files that need to be retrieved from web servers to load your page.
+9
+
+Total Objects
+
+2
+
+Number of HTML Pages
+
+1
+
+Number of JS Resources
+
+2
+
+Number of CSS Resources
+
+3
+
+Number of Images
+
+1
+
+Other Resources
+
+Google Accelerated Mobile Pages (AMP)
+This page does not appear to have AMP Enabled.
+JavaScript Errors
+Your page is not reporting any JavaScript errors.
+HTTP2 Usage
+Your website is using the recommended HTTP/2+ Protocol.
+Deprecated HTML
+No deprecated HTML tags have been found within your page.
+Inline Styles
+No Inline Styles have been found within your page's HTML tags.
+Social Results
+Your social needs improvement
+You appear to have a weak social presence or level of social activity (or we may just not be able to see your profiles!). Social activity is important for customer communication, brand awareness and as a marketing channel to bring visitors to your website. We recommend that you list all of your profiles on your page for visibility, and begin to build a following on those networks.
+Facebook Page Linked
+No associated Facebook Page found as a link on your page.
+Facebook Open Graph Tags
+Your page is using Facebook Open Graph Tags.
+Facebook Pixel
+We have not detected a Facebook Pixel on your page.
+Facebook's Pixel is a useful piece of analytics code that allows you to retarget visitors if you decide to run Facebook Ads in future.
+X (formerly Twitter) Account Linked
+No associated X Profile found as a link on your page.
+X Cards
+Your page is using X Cards.
+Instagram Linked
+No associated Instagram Profile found linked on your page
+LinkedIn Page Linked
+No associated LinkedIn Profile found linked on your page.
+YouTube Channel Linked
+No associated YouTube Channel found linked on your page.
+YouTube Channel Activity
+No associated YouTube Channel found linked on your page.
+Want to grow your YouTube Channel? Try our  
+YouTube SEO Tool
+Local SEO
+Address & Phone Shown on Website
+We can't identify one or both of these components on the page. Missing: Phone, Address
+Local Business Schema
+No Local Business Schema identified on the page.
+Google Business Profile Identified
+You can see information about your page's Google Business Profile within this report by signing up to one of our premium plans.
+Want to improve your Local Search Presence? Try our  
+Local SEO Tool
+Technology Results
+Technology List
+These software or coding libraries have been identified on your page.
+Technology	Version
+	Express	
+	Google Cloud	
+	Google Cloud CDN	
+HSTS	
+	HTTP/3	
+	Node.js	
+Server IP Address
+34.117.33.233
+DNS Servers
+ns-tld4.charlestonroadregistry.com
+ns-tld2.charlestonroadregistry.com
+ns-tld5.charlestonroadregistry.com
+ns-tld3.charlestonroadregistry.com
+ns-tld1.charlestonroadregistry.com
+Web Server
+Google Frontend
+Charset
+text/html; charset=UTF-8
+DMARC Record
+This site does not appear to have a DMARC record in place.
+DMARC records are important to improve email deliverability and combat spoofing.
+SPF Record
+This site does not appear to have an SPF record.
+SPF records are important to improve email deliverability and combat spoofing.
+Review Child Pages
+No Sub-Pages Found
+Embed an Audit Tool into your Agency's Site
+Match your website's styling and colors. Show your customer a beautiful branded report. Get notified of leads straight to your Inbox.
+
+
+
