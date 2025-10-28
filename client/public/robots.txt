@@ -1,0 +1,8 @@
+# robots.txt for RegenSeq Open Source Community
+User-agent: *
+Allow: /
+Sitemap: https://regenseq.replit.app/sitemap.xml
+
+# Disallow common admin/backend paths (if they exist in the future)
+Disallow: /api/
+Disallow: /_vite/

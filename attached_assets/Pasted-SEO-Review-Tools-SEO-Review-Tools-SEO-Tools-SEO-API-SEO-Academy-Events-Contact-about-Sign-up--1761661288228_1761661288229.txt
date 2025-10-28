@@ -1,0 +1,394 @@
+SEO Review Tools SEO Review Tools
+SEO Tools 
+SEO API
+SEO Academy
+Events
+Contact / about
+→ Sign up
+ 
+
+ Improve your content for AI platforms, (ChatGPT, Google AI mode + AI overviews)       Start optizing for AI
+
+Google SEO Checker 2.0
+7.8/10 - 828 votes
+Enter URL:
+http://www.yourdomain.com
+Include Google PageSpeed
+
+(No more captcha? Register free!)
+
+login
+Join, SEO Review Tools
+Over 166,982 already signed up for a free SEO Review Tools members account.
+
+ 
+
+  
+SEO score
+
+
+
+92/ 100
+Errors: 2
+Warnings: 0
+Optimized: 8
+SEO score Optimized
+
+Input URL:  https://regenseq.replit.app/ 
+
+
+Google SEO score details
+Document has a valid rel=canonical
+
+Canonical links suggest which URL to show in search results. Learn more about canonical links →
+
+Impact: N/A Category: seo-content
+
+
+Importance:
+robots.txt is not valid
+
+If your robots.txt file is malformed, crawlers may not be able to understand how you want your website to be crawled or indexed. Learn more about robots.txt →
+
+Impact: Medium Category: seo-crawl
+
+
+Item	Description
+line:	<!DOCTYPE html>
+index:	1
+message:	Syntax not understood
+Item	Description
+message:	Syntax not understood
+line:	<html lang="en">
+index:	2
+Item	Description
+line:	<head>
+index:	3
+message:	Syntax not understood
+Item	Description
+index:	4
+message:	Syntax not understood
+line:	<meta charset="UTF-8" />
+Item	Description
+index:	5
+message:	Syntax not understood
+line:	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+Item	Description
+line:	<title>RegenSeq Open Source Community | Repurposing DNA Sequencers for Spatial Biology</title>
+message:	Syntax not understood
+index:	6
+Item	Description
+line:	<meta name="description" content="RegenSeq is an NSF-funded open source ecosystem that repurposes decommissioned Illumina HiSeq 2500 sequencers into flexible automation platforms for spatial biology research. Democratizing advanced biological assays through accessible, community-driven software." />
+message:	Syntax not understood
+index:	7
+Item	Description
+message:	Unknown directive
+index:	8
+line:	<meta property="og:title" content="RegenSeq Open Source Community" />
+Item	Description
+line:	<meta property="og:description" content="Open source toolkit for repurposing DNA sequencers as versatile fluidics and imaging platforms for spatial biology research." />
+message:	Unknown directive
+index:	9
+Item	Description
+message:	Unknown directive
+line:	<meta property="og:type" content="website" />
+index:	10
+Item	Description
+index:	11
+line:	<link rel="preconnect" href="https://fonts.googleapis.com">
+message:	Unknown directive
+Item	Description
+message:	Unknown directive
+index:	12
+line:	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+Item	Description
+index:	13
+message:	Unknown directive
+line:	<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fira+Code:wght@300..700&family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Oxanium:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+Item	Description
+message:	Syntax not understood
+line:	<script type="module" crossorigin src="/assets/index-D6hNxUpg.js"></script>
+index:	14
+Item	Description
+line:	<link rel="stylesheet" crossorigin href="/assets/index-EU_wpUIL.css">
+index:	15
+message:	Syntax not understood
+Item	Description
+message:	Syntax not understood
+line:	</head>
+index:	16
+Item	Description
+message:	Syntax not understood
+index:	17
+line:	<body>
+Item	Description
+message:	Syntax not understood
+index:	18
+line:	<div id="root"></div>
+Item	Description
+message:	Syntax not understood
+index:	19
+line:	</body>
+Item	Description
+message:	Syntax not understood
+index:	20
+line:	</html>
+Importance:
+Page has successful HTTP status code
+
+Pages with unsuccessful HTTP status codes may not be indexed properly. Learn more about HTTP status codes →
+
+Impact: Medium Category: seo-crawl
+
+
+Importance:
+Document has a <title> element
+
+The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. Learn more about document titles →
+
+Impact: Medium Category: seo-content
+
+
+Importance:
+Document has a valid hreflang
+
+hreflang links tell search engines what version of a page they should list in search results for a given language or region. Learn more about hreflang →
+
+Impact: Medium Category: seo-content
+
+
+Importance:
+Document has a meta description
+
+Meta descriptions may be included in search results to concisely summarize page content. Learn more about the meta description →
+
+Impact: Medium Category: seo-content
+
+
+Importance:
+Links are crawlable
+
+Search engines may use href attributes on links to crawl websites. Ensure that the href attribute of anchor elements links to an appropriate destination, so more pages of the site can be discovered. Learn how to make links crawlable →
+
+Impact: Medium Category: seo-crawl
+
+
+Importance:
+Links have descriptive text
+
+Descriptive link text helps search engines understand your content. Learn how to make links more accessible →
+
+Impact: Medium Category: seo-content
+
+
+Importance:
+Image elements have [alt] attributes
+
+Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. Learn more about the alt attribute →
+
+Impact: Medium Category: seo-content
+
+
+Importance:
+Page isn’t blocked from indexing
+
+Search engines are unable to include your pages in search results if they don't have permission to crawl them. Learn more about crawler directives →
+
+Impact: Low Category: seo-crawl
+
+
+Importance:
+
+
+Automate your SEO efforts!
+✓ Get SEO data with the SEO Review Tools API
+
+✓ Backlinks, Rankings, Traffic, Duplicate content, and more ...
+
+✓ Code examples included + Google Sheets
+
+
+ (15 day free trial)
+
+Free Google SEO scan.
+Update: The Google SEO checker can now also analyze how your URL performs based on Google PageSpeed metrics.
+
+The Google SEO Checker is powered by the official Google Lighthouse platform, designed to improve the quality of a web page. Enter your URL and get access to how Google sees your website. Based on 14 key metrics Google will give you basic feedback and insights on how well your website is optimized for search.
+
+Google SEO Score
+
+How to perform a Google SEO analysis?
+Enter the URL you want to review.
+Hit the “Perform SEO scan” button.
+Get the results from the Google SEO analysis, your website will automatically be scored on a 0 – 100 scale.
+ Optimized 100 – 90
+ Needs work 90 – 50
+ Not optimized 50 – 0
+Review and address the possible SEO issues returned by the Google lighthouse analysis.
+Why is Google giving SEO advice?
+Google SEO advice
+
+Because Search is Google’s top product, Google has been helping webmasters, website owners and developers with different types of resources to improve performance and indexability of their sites. These resources include the Google Webmaster Blog, Search console, the Google SEO Starter Guide, Google Webmasters on YouTube and multiple other tools. The latest tool from Google that’s designed to evaluate your on-page technical SEO efforts is the Lighthouse platform.
+
+Additional SEO checks you probably like to perform..
+The results from the Google SEO audit will help you to understand the on-page basics. To fully analyse how well a website is optimized for search, I recommend you to also have a look at these tools:
+
+Rank checker → https://www.seoreviewtools.com/rank-checker/
+Website SEO checker → https://www.seoreviewtools.com/seo-checker/
+Content analysis → https://www.seoreviewtools.com/seo-content-score-checker/
+Domain and Page Authority score → https://www.seoreviewtools.com/website-authority-checker/
+Backlink analysis → https://www.seoreviewtools.com/valuable-backlinks-checker/
+Competitor analysis → https://www.seoreviewtools.com/seo-competitor-research-tool/
+Google SEO Report
+Google SEO Checker
+
+The automated SEO analysis is performed by the Google lighthouse platform and reviews your website based on 14 on-page SEO elements. It has to be said that the report is pretty basic, but it does include some helpful checks.
+
+Tap targets are sized appropriately
+Image elements do have [alt] attributes
+Structured data is valid
+(this check actually has to be performed manually)
+Document avoids plugins
+Page isn’t blocked from indexing
+Document has a meta description
+Document has a <title> element
+Document has a valid hreflang
+Page has successful HTTP status code
+Links have descriptive text
+Document has a valid rel=canonical
+robots.txt is valid
+Document uses legible font sizes
+Has a <meta name=”viewport”> tag with width or initial-scale.
+Google Performance Report
+Google Performance Report
+
+The Google performance report utilizes the Google page speed API to collect both user (field) and lab data for your URL. The results are analyzed and marked, so you can easily identify issues that need your attention. Key metrics that are included in the performance report are: First Contentful Paint, Largest Contentful Paint, Cumulative Layout Shift, Speed Index, Time to Interactive, and Total Blocking Time.
+
+SEO Do’s and Don’ts
+Based on Google’s SEO starters guide, here are some examples and guidelines to help you create a Google-friendly website.
+
+To do
+Help visitors to find what they are looking for by creating unique and useful content.
+Make sure that other websites link to your website. Links help search engine crawlers to discover content.
+Make your site easily accessible for both visitors and search engine crawlers with a logical internal link structure.
+To Avoid
+Don’t stuff pages with keywords
+Don’t try to mislead crawlers
+Don’t create multiple pages with identical content
+Don’t buy or sell links
+Further reading: https://support.google.com/webmasters/answer/40349?hl=en
+
+Other useful SEO resources (by Google)
+Search Engine Optimization (SEO) Starter Guide by Google
+Steps to a Google-friendly site
+Google Webmasters [YouTube channel]
+Google Search Console
+Official Google Webmaster Central Blog
+How to hire an SEO expert
+Stay connected!
+Get the latest SEO Tools and Updates in your mailbox
+
+
+Email Address
+ 
+Please share ❤    
+SEO Tools, Technical SEO Tools, Webmaster Tools Tag: Google tools
+
+Upcoming online marketing events
+
+
+Discount: -Spotlight Marketing Conference – 2025 Amsterdam
+Discount: 25%#DMWF Europe 2025 – Amsterdam – 25% Discount
+Discount: -AI & Data Science Conference – Dubai UAE 2026
+
+
+ 
+Quick tool select
+
+Select your tool of choice ....
+
+
+Most popular SEO tools
+ Keyword Research Tool New
+ Domain Authority Checker
+ Backlink checker
+ Rank Checker
+ Duplicate content checker
+Upcoming Events
+
+
+ 
+Newsletter
+
+Related Tools & Posts
+SEO Content Editor 5.1AI Brand Visibility Tool 2.0Trending topicsKeyword Research Tool 2.2ChatGPT visibility score analyzerGemini Visibility Score AnalyzerAI Content relevance AnalysisBERT score calculator [Update]Helpful Content analysis ToolGoogle Core Web Vitals Test [updated]FAQ GeneratorGoogle SERP preview ToolTitle Tag generatorMeta Description GeneratorFree Google Rank CheckerKeyword Sourcer [improved]Free Content RewriterReadability CheckerSEO Content Score Checker 2.3Keyword Cluster ToolContent Outline GeneratorFree Headline GeneratorFree AI writing ToolContent Brief Generator
+4 thoughts on “Google SEO Checker 2.0”
+ Jasja ter Horst (admin)
+Updates
+
+Google PageSpeed detailed report
+Google PageSpeed feedback / recommendations
+Reply
+ Jasja ter Horst (admin)
+Updates
+
+Improved data presentation
+Added inline documentation
+Improved report generation speed
+Reply
+ Jasja ter Horst (admin)
+Updates:
+
+Improved correct content formatting (output)
+Removed incorrect feedback issue (small update)
+Reply
+ Jasja ter Horst (admin)
+Update:
+
+Removed the “Structured data is validation” from the results overview, because this test has to be performed manually.
+Reply
+Leave a Reply
+Your email address will not be published. Required fields are marked *
+
+Comment *
+
+Name *
+
+Email *
+
+
+Seen on …
+Shopify SitePoint Unbounce Neil Patel
+PreviousNext
+Numbers and stats
+166,982
+Registered Members
+
+9.3 / 10
+Avg. tool rating
+
+185,000
+Monthly visitors
+
+45%
+Returning visitors
+
+
+   
+SSL Secure
+SEO Review Tools Chrome Web Store
+
+© 2024, by SEO Review Tools
+
+SEO API
+Keyword API
+Backlink API
+SEO sheets
+AI SEO Tools
+Privacy Policy
+Contact / about
+Address and contact
+SEO REVIEW TOOLS
+Sloep 10, 9801 RG Zuidhorn
+The  Netherlands
+SEO REVIEW TOOLS = built with  in the Netherlands {Grunn'}!

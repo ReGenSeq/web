@@ -67,6 +67,30 @@ Preferred communication style: Simple, everyday language.
   - Fixed navbar overlap by changing from vertical centering to top alignment with proper padding
   - Fixed scroll clipping: Changed snap-mandatory to snap-proximity, removed overflow-hidden, added 15vh bottom padding to ensure all cards/buttons fully visible
   - Fixed scroll indicator: Replaced scroll event listener with IntersectionObserver for reliable, performant section tracking
+  - Removed all snap scrolling behavior for completely free-flowing scroll experience
+
+### SEO Optimization (October 2025)
+
+**SEO Score:** Achieved 92/100 on SEO Review Tools
+
+**Implementation:**
+- **robots.txt** (`client/public/robots.txt`) - Proper crawler directives and sitemap reference
+- **sitemap.xml** (`client/public/sitemap.xml`) - Complete site structure with all 7 sections mapped
+- **Canonical URL** - Added to prevent duplicate content issues
+- **Enhanced Meta Tags:**
+  - Open Graph tags with URL, site_name for social media optimization
+  - Twitter Card tags for Twitter/X sharing
+  - Keywords meta tag (RegenSeq, PySeq2500, spatial biology, Illumina HiSeq 2500, etc.)
+  - Author and publisher information
+- **Structured Data (JSON-LD):**
+  - WebSite schema with organization details
+  - SoftwareApplication schema describing RegenSeq
+  - Schema.org compliant for rich search results
+
+**Files:**
+- `client/index.html` - Enhanced with all SEO meta tags and structured data
+- `client/public/robots.txt` - Search engine crawler instructions
+- `client/public/sitemap.xml` - Site structure map for search engines
 
 ### Backend Architecture
 
