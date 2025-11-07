@@ -1,7 +1,7 @@
 # robots.txt for RegenSeq Open Source Community
 User-agent: *
 Allow: /
-Sitemap: https://regenseq.github.io/web/sitemap.xml
+Sitemap: https://regenseq.github.io/sitemap.xml
 
 # Disallow common admin/backend paths (if they exist in the future)
 Disallow: /api/
