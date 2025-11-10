@@ -57,6 +57,9 @@ Preferred communication style: Simple, everyday language.
 - **Layout Pattern**: Sections use `items-start` with `md:pt-28 lg:pt-32 md:pb-[15vh]` padding (navbar spacing + generous 15vh bottom clearance)
 - **Navigation Components**:
   - Fixed navbar at top with scroll detection and theme toggle
+  - **Scroll Detection (Nov 2025 Fix)**: Listens to both window scroll events (mobile) and scroll container events (desktop with `md:overflow-y-scroll`)
+  - Navbar changes background when scroll position > 20px: transparent → white (light mode) or dark slate (dark mode)
+  - Logo button scrolls to top using appropriate scroll container (desktop) or window (mobile)
   - Scroll indicator dots (right side, desktop only) using IntersectionObserver for accurate active section detection
   - IntersectionObserver tracks all 8 sections with granular thresholds (0 to 1.0 in 0.1 increments)
   - Active dot determined by section with highest intersection ratio
