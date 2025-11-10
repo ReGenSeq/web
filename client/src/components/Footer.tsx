@@ -118,46 +118,46 @@ export function Footer() {
 
           <div className="flex flex-col items-center gap-4 mb-6">
             <p className="text-sm font-semibold text-foreground">Share RegenSeq</p>
-            <div className="flex flex-wrap gap-2 justify-center">
+            <div className="flex gap-2 justify-center">
               <Button
                 size="sm"
                 variant="outline"
-                className="gap-2"
+                className="gap-1 sm:gap-2"
                 onClick={() => window.open(`https://twitter.com/intent/tweet?text=${shareText}&url=${shareUrlEncoded}`, '_blank')}
                 data-testid="button-share-x"
               >
                 <SiX className="h-4 w-4" />
-                X
+                <span className="hidden sm:inline">X</span>
               </Button>
               <Button
                 size="sm"
                 variant="outline"
-                className="gap-2"
+                className="gap-1 sm:gap-2"
                 onClick={() => window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${shareUrlEncoded}`, '_blank')}
                 data-testid="button-share-linkedin"
               >
                 <Linkedin className="h-4 w-4" />
-                LinkedIn
+                <span className="hidden sm:inline">LinkedIn</span>
               </Button>
               <Button
                 size="sm"
                 variant="outline"
-                className="gap-2"
+                className="gap-1 sm:gap-2"
                 onClick={() => window.open(`https://www.facebook.com/sharer/sharer.php?u=${shareUrlEncoded}`, '_blank')}
                 data-testid="button-share-facebook"
               >
                 <Facebook className="h-4 w-4" />
-                Facebook
+                <span className="hidden sm:inline">Facebook</span>
               </Button>
               <Button
                 size="sm"
                 variant="outline"
-                className="gap-2"
+                className="gap-1 sm:gap-2"
                 onClick={() => window.open(`https://reddit.com/r/bioinformatics/submit?url=${shareUrlEncoded}&title=${shareText}`, '_blank')}
                 data-testid="button-share-reddit"
               >
                 <MessageSquare className="h-4 w-4" />
-                Reddit
+                <span className="hidden sm:inline">Reddit</span>
               </Button>
             </div>
           </div>
