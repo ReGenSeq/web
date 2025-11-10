@@ -89,77 +89,74 @@ export function Footer() {
         </div>
         
         <div className="pt-6 sm:pt-8 border-t border-border">
-          {githubStats && (
-            <div className="flex flex-wrap gap-3 justify-center mb-6">
-              <a
-                href="https://github.com/nygctech/PySeq2500/stargazers"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-3 py-2 rounded-md bg-muted/50 hover:bg-muted text-sm hover-elevate"
-                data-testid="link-github-stars"
-              >
-                <Star className="h-4 w-4 text-yellow-500" />
-                <span className="font-semibold">{githubStats.stars}</span>
-                <span className="text-muted-foreground">stars</span>
-              </a>
-              <a
-                href="https://github.com/nygctech/PySeq2500/network/members"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-3 py-2 rounded-md bg-muted/50 hover:bg-muted text-sm hover-elevate"
-                data-testid="link-github-forks"
-              >
-                <GitFork className="h-4 w-4 text-primary" />
-                <span className="font-semibold">{githubStats.forks}</span>
-                <span className="text-muted-foreground">forks</span>
-              </a>
-            </div>
-          )}
-
-          <div className="flex flex-col items-center gap-4 mb-6">
-            <p className="text-sm font-semibold text-foreground">Share RegenSeq</p>
-            <div className="flex gap-2 justify-center">
-              <Button
-                size="sm"
-                variant="outline"
-                className="gap-1 sm:gap-2"
-                onClick={() => window.open(`https://twitter.com/intent/tweet?text=${shareText}&url=${shareUrlEncoded}`, '_blank')}
-                data-testid="button-share-x"
-              >
-                <SiX className="h-4 w-4" />
-                <span className="hidden sm:inline">X</span>
-              </Button>
-              <Button
-                size="sm"
-                variant="outline"
-                className="gap-1 sm:gap-2"
-                onClick={() => window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${shareUrlEncoded}`, '_blank')}
-                data-testid="button-share-linkedin"
-              >
-                <Linkedin className="h-4 w-4" />
-                <span className="hidden sm:inline">LinkedIn</span>
-              </Button>
-              <Button
-                size="sm"
-                variant="outline"
-                className="gap-1 sm:gap-2"
-                onClick={() => window.open(`https://www.facebook.com/sharer/sharer.php?u=${shareUrlEncoded}`, '_blank')}
-                data-testid="button-share-facebook"
-              >
-                <Facebook className="h-4 w-4" />
-                <span className="hidden sm:inline">Facebook</span>
-              </Button>
-              <Button
-                size="sm"
-                variant="outline"
-                className="gap-1 sm:gap-2"
-                onClick={() => window.open(`https://reddit.com/r/bioinformatics/submit?url=${shareUrlEncoded}&title=${shareText}`, '_blank')}
-                data-testid="button-share-reddit"
-              >
-                <MessageSquare className="h-4 w-4" />
-                <span className="hidden sm:inline">Reddit</span>
-              </Button>
-            </div>
+          <div className="flex flex-wrap gap-2 justify-center items-center mb-6">
+            {githubStats && (
+              <>
+                <a
+                  href="https://github.com/nygctech/PySeq2500/stargazers"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-3 py-2 rounded-md bg-muted/50 hover:bg-muted text-sm hover-elevate"
+                  data-testid="link-github-stars"
+                >
+                  <Star className="h-4 w-4 text-yellow-500" />
+                  <span className="font-semibold">{githubStats.stars}</span>
+                  <span className="text-muted-foreground">stars</span>
+                </a>
+                <a
+                  href="https://github.com/nygctech/PySeq2500/network/members"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-3 py-2 rounded-md bg-muted/50 hover:bg-muted text-sm hover-elevate"
+                  data-testid="link-github-forks"
+                >
+                  <GitFork className="h-4 w-4 text-primary" />
+                  <span className="font-semibold">{githubStats.forks}</span>
+                  <span className="text-muted-foreground">forks</span>
+                </a>
+                <div className="hidden sm:block w-px h-8 bg-border mx-1"></div>
+              </>
+            )}
+            <Button
+              size="sm"
+              variant="outline"
+              className="gap-1 sm:gap-2"
+              onClick={() => window.open(`https://twitter.com/intent/tweet?text=${shareText}&url=${shareUrlEncoded}`, '_blank')}
+              data-testid="button-share-x"
+            >
+              <SiX className="h-4 w-4" />
+              <span className="hidden sm:inline">X</span>
+            </Button>
+            <Button
+              size="sm"
+              variant="outline"
+              className="gap-1 sm:gap-2"
+              onClick={() => window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${shareUrlEncoded}`, '_blank')}
+              data-testid="button-share-linkedin"
+            >
+              <Linkedin className="h-4 w-4" />
+              <span className="hidden sm:inline">LinkedIn</span>
+            </Button>
+            <Button
+              size="sm"
+              variant="outline"
+              className="gap-1 sm:gap-2"
+              onClick={() => window.open(`https://www.facebook.com/sharer/sharer.php?u=${shareUrlEncoded}`, '_blank')}
+              data-testid="button-share-facebook"
+            >
+              <Facebook className="h-4 w-4" />
+              <span className="hidden sm:inline">Facebook</span>
+            </Button>
+            <Button
+              size="sm"
+              variant="outline"
+              className="gap-1 sm:gap-2"
+              onClick={() => window.open(`https://reddit.com/r/bioinformatics/submit?url=${shareUrlEncoded}&title=${shareText}`, '_blank')}
+              data-testid="button-share-reddit"
+            >
+              <MessageSquare className="h-4 w-4" />
+              <span className="hidden sm:inline">Reddit</span>
+            </Button>
           </div>
 
           <div className="flex flex-col md:flex-row justify-between items-center gap-3 sm:gap-4 pt-4 border-t border-border">
