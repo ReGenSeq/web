@@ -2,6 +2,7 @@ import { Card } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Building2 } from "lucide-react";
 import kasparImage from "@assets/kaspar_1762799962953.png";
+import danielImage from "@assets/daniel_1762800086816.webp";
 
 const team = [
   {
@@ -26,6 +27,7 @@ const team = [
     initials: "DD",
     org: "New York Genome Center",
     description: "Scientific Program Manager with computer science background and expertise in project management and stakeholder coordination.",
+    image: danielImage,
   },
   {
     name: "Kaspar Bumke",
