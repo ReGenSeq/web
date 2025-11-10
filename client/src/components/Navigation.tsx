@@ -45,7 +45,8 @@ export function Navigation() {
     }
   };
 
-  const scrollToSection = (href: string) => {
+  const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault();
     setIsMobileMenuOpen(false);
     const element = document.querySelector(href);
     if (element) {
@@ -73,14 +74,15 @@ export function Navigation() {
           
           <div className="hidden md:flex items-center gap-8">
             {navItems.map((item) => (
-              <button
+              <a
                 key={item.href}
-                onClick={() => scrollToSection(item.href)}
+                href={item.href}
+                onClick={(e) => handleSmoothScroll(e, item.href)}
                 className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
                 data-testid={`link-nav-${item.label.toLowerCase()}`}
               >
                 {item.label}
-              </button>
+              </a>
             ))}
           </div>
           
@@ -102,14 +104,15 @@ export function Navigation() {
           <div className="md:hidden py-4 border-t border-border bg-background">
             <div className="flex flex-col gap-4">
               {navItems.map((item) => (
-                <button
+                <a
                   key={item.href}
-                  onClick={() => scrollToSection(item.href)}
+                  href={item.href}
+                  onClick={(e) => handleSmoothScroll(e, item.href)}
                   className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors text-left"
                   data-testid={`link-mobile-nav-${item.label.toLowerCase()}`}
                 >
                   {item.label}
-                </button>
+                </a>
               ))}
             </div>
           </div>
