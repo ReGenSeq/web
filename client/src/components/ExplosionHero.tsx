@@ -13,11 +13,14 @@ export function ExplosionHero() {
           NSF POSE Phase 1 Award
         </Badge>
         
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground mb-4 sm:mb-6 tracking-tight px-2">
-          RegenSeq
-          <br />
-          Reuse. Repurpose. Reimagine.
-        </h1>
+        <div className="mb-4 sm:mb-6 px-2">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground tracking-tight">
+            RegenSeq
+          </h1>
+          <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-foreground tracking-tight mt-2">
+            Reuse. Repurpose. Reimagine.
+          </p>
+        </div>
         
         <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-3xl mx-auto mb-8 sm:mb-10 md:mb-12 leading-relaxed px-2">
           Repurposing decommissioned DNA sequencers into flexible automation platforms 
