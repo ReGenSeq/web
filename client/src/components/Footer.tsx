@@ -1,4 +1,4 @@
-import { Github, ExternalLink, Twitter, Linkedin, MessageSquare, Star, GitFork } from "lucide-react";
+import { Github, ExternalLink, Twitter, Linkedin, MessageSquare, Star, GitFork, Facebook } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
 
@@ -116,26 +116,36 @@ export function Footer() {
 
           <div className="flex flex-col items-center gap-4 mb-6">
             <p className="text-sm font-semibold text-foreground">Share RegenSeq</p>
-            <div className="flex gap-2">
+            <div className="flex flex-wrap gap-2 justify-center">
               <Button
                 size="sm"
                 variant="outline"
                 className="gap-2"
                 onClick={() => window.open(`https://twitter.com/intent/tweet?text=${shareText}&url=${shareUrl}`, '_blank')}
-                data-testid="button-share-twitter"
+                data-testid="button-share-x"
               >
                 <Twitter className="h-4 w-4" />
-                Twitter
+                X
               </Button>
               <Button
                 size="sm"
                 variant="outline"
                 className="gap-2"
-                onClick={() => window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${shareUrl}`, '_blank')}
+                onClick={() => window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${shareUrl}&summary=${shareText}`, '_blank')}
                 data-testid="button-share-linkedin"
               >
                 <Linkedin className="h-4 w-4" />
                 LinkedIn
+              </Button>
+              <Button
+                size="sm"
+                variant="outline"
+                className="gap-2"
+                onClick={() => window.open(`https://www.facebook.com/sharer/sharer.php?u=${shareUrl}&quote=${shareText}`, '_blank')}
+                data-testid="button-share-facebook"
+              >
+                <Facebook className="h-4 w-4" />
+                Facebook
               </Button>
               <Button
                 size="sm"
